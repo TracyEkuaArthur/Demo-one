@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: blue;
+}
+#header {
+  background-color: black;
+  height: 3rem;
+  padding-top: 10px;
+}
+
+.my--ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  font-size: larger;
+  color: aliceblue;
+  margin: 0 0 0 30rem;
+  font-weight: 700;
+}
+
+.my--ul li:hover {
+  background-color:magenta;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.main {
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+}
+#main--sect {
+  width: 90%;
+  height: 100%;
+  background-color: blue;
+  margin: 1.5rem auto;
+  border-radius: 1.5%;
+  display: grid;
+  grid-template-columns: 1.8fr 1fr 1fr;
+  padding: 20px;
+  gap: 1rem;
+}
+.tour {
+  border-radius: 1.5rem;
+  height: 30rem;
+  transition: 2s ease-in-out;
+}
+.tour:hover {
+  border-radius: 1.5rem;
+  transition: 1s ease-in-out;
+  opacity: 0.7;
+}
+
+.mainn {
+  background-image: url("./img/pics/image1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 1.5rem;
+}
+
+.one {
+  background-image: url("./img/pics/image2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.one:hover {
+  margin: 1rem 0;
+}
+.two {
+  background-image: url("./img/pics/image3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.three {
+  background-image: url("./img/pics/image4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.four {
+  background-image: url("./img/pics/image5.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.five {
+  background-image: url("./img/pics/image6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.six {
+  background-image: url("./img/pics/image7.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.seven {
+  background-image: url("./img/pics/image8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.eight {
+  background-image: url("./img/pics/image9.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
